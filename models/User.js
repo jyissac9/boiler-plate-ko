@@ -23,10 +23,10 @@ const userSchema = mongoose.Schema({
         default: 0
     },
     image: String,
-    token: { //유효성 관리
+    token: { //토큰: 유효성 관리
         type: String
     },
-    tokenExp: {
+    tokenExp: { //토큰 유효 기간.
         type: Number
     }
 
